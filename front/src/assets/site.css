@@ -1,0 +1,27 @@
+/*
+author: Deborah Powers
+job: Dev Web
+school: Simplon Lieusaint
+creation: 2018/03/17
+update: 2018/03/17
+
+css special pour mon site
+*/
+/* barre de navigation */
+div.nav {
+	max-width: 8cm;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+/* articles */
+div.article {
+	border-top: 2mm double #4BB;
+	padding: 2mm;
+}
+div.article h1 { margin-bottom: 2mm; }
+/* les images */
+img { max-width: 4cm; }
+@media (min-width: 600px){
+	img { float: right; }
+}

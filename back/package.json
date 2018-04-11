@@ -1,0 +1,23 @@
+{
+  "name": "node-token",
+  "version": "1.0.0",
+  "description": "utiliser un login et un token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deborah Powers",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli": "^3.0.0-beta.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.2.0",
+    "jwt-decode": "^2.2.0",
+    "mongodb": "^3.0.5",
+    "mongoose": "^5.0.11",
+    "nodemon": "^1.17.2"
+  }
+}
